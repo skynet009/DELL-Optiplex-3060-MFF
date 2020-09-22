@@ -10,12 +10,12 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 | ---------------- | ---------------------------------- |
 | CPU              | Intel i3 8100T                     |
 | iGPU             | Intel® UHD Graphics 630            |
-| Lan              | Realtek 8168                      |
+| Lan              | Realtek 8168                       |
 | Audio            | Realtek ALC255                     |
-| Ram              | 16 Gb ddr4 2400 Mhz                |
-| Wifi + Bluetooth | dw1830                             |
-| NVMe             | Toshiba 256 Gb                     |
-| SSD              | Crucial bx500 240 Gb               |
+| Ram              | 16 Gb DDR4 2400 Mhz                |
+| Wifi + Bluetooth | BCM943602BAED                      |
+| NVMe             | TOSHIBA KBG4 256 Gb                |
+| SSD              | Crucial BX500 240 Gb               |
 | SmBios           | MacMini 8,1                        |
 | BootLoader       | OpenCore                           |
 
@@ -31,10 +31,10 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 
 ### What works and What doesn't or WIP:
 
-- [x] Intel UHD 630 iGPU HDMI Output
+- [x] Intel UHD 630 iGPU HDMI/DP Output
 - [x] ALC255 Internal Speakers
 - [x] ALC255 Native Combojack headphones
-- [x] ALC255 HDMI Audio Output
+- [x] ALC255 HDMI/DP Audio Output
 - [x] All USB Ports 
 - [x] SpeedStep / Sleep / Wake
 - [x] Wi-Fi and Bluetooth BCM943602BAED (DW1830) Module
@@ -42,6 +42,8 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 - [x] NVRAM
 - [x] Windows boot from OpenCore
 - [x] ALC255 Combojack microphone
+- [x] ALC255 jack LINE-IN
+
 
 ### Special Config:
 
