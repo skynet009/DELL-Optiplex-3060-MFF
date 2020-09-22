@@ -10,7 +10,7 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 | ---------------- | ---------------------------------- |
 | CPU              | Intel i3 8100T                     |
 | iGPU             | Intel® UHD Graphics 630            |
-| Lan              | Realtek 8111H                      |
+| Lan              | Realtek 8168                      |
 | Audio            | Realtek ALC255                     |
 | Ram              | 16 Gb ddr4 2400 Mhz                |
 | Wifi + Bluetooth | dw1830                             |
@@ -38,7 +38,7 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 - [x] All USB Ports 
 - [x] SpeedStep / Sleep / Wake
 - [x] Wi-Fi and Bluetooth BCM943602BAED (DW1830) Module
-- [x] Realtek RTL8111H LAN
+- [x] Realtek RTL8168 LAN
 - [x] NVRAM
 - [x] Windows boot from OpenCore
 - [x] ALC255 Combojack microphone
