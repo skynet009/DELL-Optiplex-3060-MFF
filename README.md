@@ -19,7 +19,7 @@ EFI for Dell Optiplex 3060 MFF with OpenCore bootloader
 | SmBios           | MacMini 8,1                        |
 | BootLoader       | OpenCore                           |
 
-![infobigsur](./Screenshot/infocacbigsur.png)
+![infobigsur](./Screenshot/infomacbigsur.png)
 
 ## Peripherals
 
